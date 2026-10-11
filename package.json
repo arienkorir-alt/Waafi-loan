@@ -1,13 +1,24 @@
-Perfect! Now last file, very small!
+I see - Deploy failed. Small error in file. Let's fix in 30 seconds:
 
-FILE 3: package.json
+Click on that text "Initialize package.json for waafi-loan..." with the small arrow ▼ - click it to open logs. Screenshot the error and send me.
 
-Copy this - HOLD -> Copy text
+But I know the fix - your package.json is missing one line.
+
+Do this:
+
+1. Go back to GitHub: github.com/arienkorir-alt/Waafi-loan
+2. Click package.json
+3. Click edit pencil ✏️
+4. Delete everything and paste this CORRECT one (HOLD -> Copy text):
 
 ---
 {
   "name": "waafi-loan",
   "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "node-fetch": "^3.3.2"
@@ -15,8 +26,8 @@ Copy this - HOLD -> Copy text
 }
 ---
 
-Link to add: https://github.com/arienkorir-alt/Waafi-loan/new/main?filename=package.json
+5. Commit changes
 
-Paste and click Commit changes
+6. Then go back to Render, it will auto redeploy. If not, click Manual Deploy -> Deploy latest commit
 
-After this, tell me DONE and I will make your site LIVE on Render.com in 2 minutes!
+Send me log screenshot if still fails.
