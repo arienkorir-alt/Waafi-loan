@@ -1,0 +1,22 @@
+Perfect! Now last file, very small!
+
+FILE 3: package.json
+
+Copy this - HOLD -> Copy text
+
+---
+{
+  "name": "waafi-loan",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
+---
+
+Link to add: https://github.com/arienkorir-alt/Waafi-loan/new/main?filename=package.json
+
+Paste and click Commit changes
+
+After this, tell me DONE and I will make your site LIVE on Render.com in 2 minutes!
